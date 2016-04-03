@@ -99,7 +99,7 @@ margin-left:20px;}
 form{
 background-color:lightgrey;
  min-width: 150px;
- 
+ text-align:center;
    width: 85%;
  
    max-width: 400px;
@@ -111,7 +111,7 @@ margin-top:20px;
 border: 2px solid #a1a1a1;
     
 border-radius: 25px;
-height:260px;
+height:350px;
    
 }
 
@@ -303,3 +303,64 @@ clear: both;
 footer ul
 {
 margin-bottom: 50px;}
+
+
+.greska {
+	height: 25px;
+	width: 30px;
+	margin-bottom: -7px;
+	margin-left: 5px;
+	visibility: visible;
+}
+
+.greska_invisible {
+	height: 25px;
+	width: 30px;
+	margin-bottom: -7px;
+	margin-left: 5px;
+	visibility: hidden; 
+}
+
+.greska_poruka {
+	height: 25px;
+	width: 30px;
+	margin-bottom: 120px;
+	margin-left: 5px;
+	visibility: visible;
+}
+
+.greska_poruka_invisible {
+	height: 25px;
+	width: 30px;
+	margin-bottom: 120px;
+	margin-left: 5px;
+	visibility: hidden; 
+}
+
+.poruka {
+	margin-bottom: 72px;
+	margin-left: 5px;
+	visibility: visible;
+	color: red;
+}
+
+.poruka_invisible {
+	margin-bottom: -7px;
+	margin-left: 5px;
+	visibility: hidden;
+	color: red;
+}
+
+.poruka_komentar {
+	position: relative;
+	bottom: 125px;
+	visibility: visible;
+	color: red;
+}
+
+.poruka_komentar_invisible {
+	position: relative;
+	bottom: 125px;
+	visibility: hidden; 
+	color:red;
+}
