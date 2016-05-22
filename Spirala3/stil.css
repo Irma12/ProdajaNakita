@@ -89,8 +89,40 @@ display: table-cell;
    vertical-align: middle;
 }
 
+.Novosti{
+    border-bottom-style: double;
+    width: 95%
+}
+ul.NovostiLista{
+list-style-type: none;
+		text-align: center;
+		margin-bottom: 5px;}
 
-
+li.Filter{
+	display: inline-block;
+	font-family: Lato;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	    border: 1px solid #2F4F4F;
+	border-radius: 25px;
+}
+li.Filter:hover{
+	background-color: #d9d9d9;
+	cursor: pointer;
+}
+p.vrijemeObjave{
+    margin-top: 5px;
+    font-style: italic;}
+	
+	#NovostSector{
+   padding:5px;
+   }
 main
 { 
         width:800px;

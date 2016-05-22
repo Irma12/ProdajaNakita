@@ -80,7 +80,7 @@
   <li><a href="http://www.twitter.com">Twitter<a/></li>
   
 </ul>
-<p>Imate pitanja? Pišite nam klikom na</p><a href="Forma.html">LINK</a>
+<p>Imate pitanja? Pišite nam klikom na</p><a href="Forma.php">LINK</a>
 
 </aside>
 
