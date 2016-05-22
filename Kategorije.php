@@ -18,10 +18,10 @@
 
   <nav >    
   <ul>
-    <li><a href="Naslovna.html">Početna</a></li>
-    <li><a href="DizajnerskiNakit.html">Dizajnerski nakit</a></li>
-	  <li><a href="Kategorije.html">Kategorije</a></li>
-    <li><a href="Kontakt.html">Kontakt</a></li>
+    <li><a href="index.php">Početna</a></li>
+    <li><a href="DizajnerskiNakit.php">Dizajnerski nakit</a></li>
+	  <li><a href="Kategorije.php">Kategorije</a></li>
+    <li><a href="Kontakt.php">Kontakt</a></li>
   </ul>
   </nav>
 	
