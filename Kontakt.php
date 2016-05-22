@@ -20,10 +20,10 @@
 
   <nav >    
   <ul>
-    <li><a href="index.php">Početna</a></li>
-    <li><a href="DizajnerskiNakit.php">Dizajnerski nakit</a></li>
-    <li><a href="Kategorije.php">Kategorije</a></li>
-	  <li><a href="Kontakt.php">Kontakt</a></li>
+    <li><a href="Naslovna.html">Početna</a></li>
+    <li><a href="DizajnerskiNakit.html">Dizajnerski nakit</a></li>
+    <li><a href="Kategorije.html">Kategorije</a></li>
+	  <li><a href="Kontakt.html">Kontakt</a></li>
   </ul>
   </nav>
 <main>
@@ -80,7 +80,7 @@
   <li><a href="http://www.twitter.com">Twitter<a/></li>
   
 </ul>
-<p>Imate pitanja? Pišite nam klikom na</p><a href="Forma.html">LINK</a>
+<p>Imate pitanja? Pišite nam klikom na</p><a href="Forma.php">LINK</a>
 
 </aside>
 
