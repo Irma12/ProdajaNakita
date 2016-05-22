@@ -1,6 +1,6 @@
 function Racunaj(){
-	var x = document.querySelectorAll("p.ObjavljenoPrije");
-	var y = document.querySelectorAll("p.Kontrola");
+	var x = document.querySelectorAll("p.vrijemeObjave");
+
 
 	for (var i = 0; i < x.length; i++) {
 
@@ -13,7 +13,7 @@ function Racunaj(){
 		{
 			//U sekundama
 			x[i].innerHTML="Novost je objavljena prije par sekundi";
-			y[i].innerHTML="1";
+			
 		}
 		else
 		{
@@ -24,11 +24,11 @@ function Racunaj(){
 				//U minutama
 				if(razlika==1){
 					x[i].innerHTML="Novost je objavljena prije "+razlika+" minut";
-					y[i].innerHTML="1";
+					
 				}
 				else{
 					x[i].innerHTML="Novost je objavljena prije "+razlika+" minuta";
-					y[i].innerHTML="1";
+				
 				}
 			}
 			else
@@ -39,15 +39,15 @@ function Racunaj(){
 				{
 					if(razlika==1 || razlika==21){
 						x[i].innerHTML="Novost je objavljena prije "+razlika+" sat";
-						y[i].innerHTML="1";
+						
 					}
 					else if((razlika>1 && razlika<5) || (razlika>21 && razlika<24)){
 						x[i].innerHTML="Novost je objavljena prije "+razlika+" sata";
-						y[i].innerHTML="1";
+						
 					}
 					else{
 						x[i].innerHTML="Novost je objavljena prije "+razlika+" sati";
-						y[i].innerHTML="1";
+						
 					}
 				}
 				else
@@ -58,17 +58,17 @@ function Racunaj(){
 					{
 						if(razlika==1){
 							x[i].innerHTML="Novost je objavljena prije "+razlika+" dan";
-							y[i].innerHTML="2";
+						
 						}
 						else{
 							x[i].innerHTML="Novost je objavljena prije "+razlika+" dana";
-							y[i].innerHTML="2";
+							
 						}
 					}
 					else if(razlika>31)
 					{
 						x[i].innerHTML="Datum objave novosti: "+ VrijemeNovosti;
-						y[i].innerHTML="4";
+					
 					}
 					else
 					{
@@ -76,11 +76,11 @@ function Racunaj(){
 						//U sedmicama
 						if(razlika==1){
 							x[i].innerHTML="Novost je objavljena prije "+razlika+" sedmicu";
-							y[i].innerHTML="3";
+						
 						}
 						else{
 							x[i].innerHTML="Novost je objavljena prije "+razlika+" sedmice";
-							y[i].innerHTML="3";
+						
 						}
 
 					}
@@ -137,9 +137,9 @@ function OdabirNovosti(control){
 }
 
 function Redirect1(){
-	window.location.assign("index1.php?sort=abc");
+	window.location.assign("prikaz.php?sort=abc");
 }
 
 function Redirect2(){
-	window.location.assign("index1.php?sort=vrijeme");
+	window.location.assign("prikaz.php?sort=vrijeme");
 }

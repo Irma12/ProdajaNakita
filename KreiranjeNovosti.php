@@ -28,6 +28,7 @@
 		<ul>
 		<li><a href='index.php'>Početna</a></li>
 		<li><a href='KreiranjeNovosti.php'>KreiranjeNovosti</a></li>
+		<li><a href='prikaz.php'>Prikaz Novosti</a></li>
 	    <li><a href='Logout.php'>Logout</a></li>
 	   </ul>
 	   </nav>";
@@ -61,12 +62,14 @@
  <?php
  if (isset($_REQUEST['SpasiNovost']) && $_REQUEST['SpasiNovost'] == 'Spasi novost') {
             $novosti = file("Novosti.csv");
+		
             $TekstNovosti=str_replace(',','#',$_REQUEST['TextNovosti']);
             $tekst=str_replace('\n', '%%',$TekstNovosti);
             $datum=date("Y-m-d")."T".date("H:i:s");
             $nov = $_REQUEST['Naslov'].",".$tekst.",".$datum.",".$_REQUEST['DvoslovniKod'].",".$_REQUEST['TelefonskiBroj']."**";
             array_push($novosti, $nov);
             file_put_contents("Novosti.csv", $novosti);
+			   
         }
         
     ?>
